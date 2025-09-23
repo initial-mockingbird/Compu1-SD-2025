@@ -1,10 +1,10 @@
-modules = ["cpp"]
+modules = ["nix", "cpp"]
 [agent]
-expertMode = true
+expertMode = false
 
 [nix]
 channel = "stable-25_05"
-packages = ["cmake", "gcc", "gnumake", "libgcc"]
+packages = ["gcc", "libgcc"]
 
 [workflows]
 runButton = "Project"
