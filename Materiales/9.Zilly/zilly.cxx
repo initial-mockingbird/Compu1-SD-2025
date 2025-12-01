@@ -109,25 +109,6 @@ void test07() {
     }
 }
 
-int palindromo(int i){
-  // @@@ TAREA: implemente esta función, que determina si un número es palíndromo
-  // Debe hacerlo tan sólo con primitivas de Zilly
-  // Puede definir cualquier función auxiliar que necesite (las cuales dependan de las primitivas de zilly)
-  // Y pueden hacerlo con recursión.
-  // Retorna 1 si lo es
-  // Retorna 0 si en caso contrario.
-  return 0;
-}
-
-void test08(){
-  int numeros[] = {121, 123, 454, 789, 1331, 12321, 1234321, 123456};
-  for(int i = 0; i < 8; ++i){
-    int n = numeros[i];
-    int r = palindromo(n);
-    fprintf(stdout, "palindromo(%d) ==> %d\n", n, r);
-  }
-}
-
 int main() {
     test00();
     test01();
