@@ -94,7 +94,7 @@ Por último, olvidense del comando '0' (reset) y 't' (todos) .. no importan aqui
 
 A manera de diagrama, la estructura de la base de datos es la siguiente:
 
-[](./Untitled.png)
+![diagrama](./Untitled.png)
 
 
 En ella vemos que nuestra base de datos se conforma de las tablas:
